@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT(title)) FROM film WHERE length <=50;
