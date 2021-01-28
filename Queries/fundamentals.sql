@@ -1,1 +1,1 @@
-SELECT COUNT(DISTINCT(title)) FROM film WHERE length <=50;
+SELECT COUNT(*) FROM film WHERE title LIKE('%Truman%')
